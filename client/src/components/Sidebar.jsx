@@ -18,7 +18,7 @@ const Icon = ({ styles, name, imgUrl, isActive, disabled, handleClick }) => (
 
 const Sidebar = () => {
   const navigate = useNavigate();
-  const [isActive, setIsActive] = useState('Operation');
+  const [isActive, setIsActive] = useState('operation');
   const { address } = useStateContext();
 
   const navlinks = [
