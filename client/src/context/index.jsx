@@ -51,7 +51,7 @@ export const StateContextProvider = ({ children }) => {
   const getUserOperations = async () => {
     const allOperations = await getAllOperations();
 
-    const filteredOperations = allOperations.filter((campaign) => campaign.owner === address);
+    const filteredOperations = allOperations.filter((operation) => operation.owner === address);
 
     return filteredOperations;
   }

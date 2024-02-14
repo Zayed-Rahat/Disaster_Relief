@@ -29,10 +29,9 @@ const Sidebar = () => {
     },
 
     {
-      name: 'Operation',
+      name: 'operation',
       imgUrl: createCampaign,
       link: (address == "0x53F25b4b2b7AA33F3c5B3a08F5C9a06d24EDb196") ? '/create-opeartion': '#',
-      // Display the "campaign" link only if `address` matches the specified value
       disabled: address != '0x53F25b4b2b7AA33F3c5B3a08F5C9a06d24EDb196',
       // disabled: true,
     },
